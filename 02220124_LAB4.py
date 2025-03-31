@@ -21,7 +21,7 @@ class ArrayQueue:
         self.rear = (self.rear + 1) % self.capacity
         self.queue[self.rear] = element
         print(f"Enqueued {element} to the queue")
-    
+        
     def dequeue(self):
         if self.is_empty():
             print("Queue is empty!")
